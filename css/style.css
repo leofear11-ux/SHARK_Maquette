@@ -1,11 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.sect-2 {
+    display: flex;
 }
+.image img {
+    width: 800px;
+    height: 700px;
+ margin-top: 150px;
 
-:root{
-    --bg-blue: #3e5093d3;
-    --color-menu: #d5dad6;
 }
-
+.image {
+    width: 2000px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.texte {
+    font-size: medium;
+    margin-right: 100px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    font-style: unset ;
+}
+.texte h1,h2,h3 {
+    color: rgb(28, 28, 75);
+    text-align: center;
+}
+.texte p {
+    font-size: 30px;
+}
+.button {
+    font-size: xx-large;
+    border-radius: 50px;
+    color:white;
+    background-color: rgb(44, 42, 42);
+    
+}
+.texte .papa {
+    font-style:italic;
+}
+.texte h3 {
+    font-style: italic;
+    font-size: x-large;
+}
