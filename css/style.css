@@ -11,38 +11,42 @@
 }
 
 /* mampita */
-.sect-3{
+.sect-3 {
     background: var(--bg-mampita);
     color: var(--color-menu);
     padding: 25px;
 }
-.sect-3 h2{
+
+.sect-3 h2 {
     text-align: center;
     color: white;
 }
-.sect-3 .container{
+
+.sect-3 .container {
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
     font-size: 14px;
 }
+
 .container h3,
-.container h4{
+.container h4 {
     color: white;
 }
 
-.container h4{
+.container h4 {
     font-style: italic;
 }
-.container *{
+
+.container * {
     margin-bottom: 15px;
 }
 
-.container .left{
+.container .left {
     width: 50%;
 }
 
-.container .left a{
+.container .left a {
     text-decoration: none;
     color: white;
     border-radius: 15px;
@@ -50,6 +54,7 @@
     padding: 5px 8px;
     font-size: 16px;
 }
+
 /* ---------------------------------------------------------------------- */
 .sect-2 {
     display: flex;
@@ -59,15 +64,16 @@
     padding: 20px;
 }
 
-.image{
+.image {
     width: 40%;
-    
+
 }
+
 .image img {
     width: 100%;
 }
 
-.right{
+.right {
     width: 40%;
     text-align: center;
 }
@@ -85,7 +91,7 @@
     font-style: italic;
 }
 
-.text p{
+.text p {
     line-height: 1.7;
 }
 
@@ -98,7 +104,7 @@
     padding: 10px 15px;
 }
 
-.right hr{
+.right hr {
     border-style: dashed;
     border-width: 2px;
     color: var(--bg-blue);
@@ -106,3 +112,144 @@
     margin: 0 auto;
     border-radius: 20px;
 }
+
+
+/* juv */
+
+.sect-5 .int {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--bg-mampita);
+    justify-content: center;
+    max-width: 100%;
+    color: rgba(245, 245, 245, 0.671);
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.sect-5 .copy {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--bg-mampita);
+    padding: 20px;
+    color: rgba(245, 245, 245, 0.786);
+}
+
+.lien ul li {
+    text-decoration: none;
+}
+
+.sect-5 .media #face {
+    width: 40px;
+    height: 40px;
+    background: #4952b6;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+
+.sect-5 .media #link {
+    width: 40px;
+    height: 40px;
+    background: #136ce0;
+    color: aliceblue;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+.sect-5 .media #you {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(202, 20, 20);
+    color: aliceblue;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+.sect-5 .int {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-5 .copy {
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    gap: 10px;
+    color: #c2c2c2;
+}
+
+
+.sect-5 .int .agi ul i {
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.sect-5 .int .lien i {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.sect-5 .int .contact i {
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.sect-5 .int .agi h2 {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b29d90;
+}
+
+.sect-5 .int .lien h2 {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(220, 226, 230);
+
+}
+
+.sect-5 .int .contact h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(220, 226, 230);
+}
+
+.sect-5 .media i {
+    margin-right: 10px;
+}
+
+.sect-5 .ligneH {
+    width: 100%;
+    border: none;
+    border-top: 2px solid rgb(161, 161, 161);
+}
+
+.sect-5 .int .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+/* ----------------------------------------------------------- */
