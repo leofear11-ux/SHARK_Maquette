@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-blue: #3e5093d3;
+    --color-menu: #d5dad6;
+    --bg-blue2: #1f3686;
+}
+.sect-5 .int{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--bg-blue2);
+    justify-content: center;
+    max-width: 100%;
+    color: rgba(245, 245, 245, 0.671);
+    padding: 40px;
+    padding-top: 80px;
+}
+.sect-5 .copy{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--bg-blue2);
+    padding: 20px;
+    color: rgba(245, 245, 245, 0.786);
+}
+.lien ul li{
+    text-decoration: none;
+}
+.sect-5 .media #face{
+    width: 40px;
+    height: 40px;
+    background: #4952b6; 
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+.sect-5 .media #link{
+    width: 40px;
+    height: 40px;
+    background: #136ce0; 
+    color:aliceblue;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+.sect-5 .media #you{
+     width: 40px;
+    height: 40px;
+    background-color: rgb(202, 20, 20);
+    color: aliceblue;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+.sect-5 .int {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-5 .copy{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    gap: 10px;
+    color: #c2c2c2;
+}
+
+
+.sect-5 .int .agi ul i{
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+.sect-5 .int .lien i{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.sect-5 .int .contact i{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.sect-5 .int .agi h2{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b29d90;
+}
+.sect-5 .int .lien h2{
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(220, 226, 230);
+
+}
+.sect-5 .int .contact h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(220, 226, 230);
+}
+.sect-5 .media i{
+    margin-right: 10px;
+}
+.sect-5 .ligneH{
+    width: 100%;
+    border: none;
+    border-top: 2px solid rgb(161, 161, 161);
+}
+.sect-5 .int .media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
