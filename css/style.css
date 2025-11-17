@@ -7,8 +7,50 @@
 :root {
     --bg-blue: #3e5093d3;
     --color-menu: #d5dad6;
+    --bg-mampita: #1f3686;
 }
 
+/* mampita */
+.sect-3{
+    background: var(--bg-mampita);
+    color: var(--color-menu);
+    padding: 25px;
+}
+.sect-3 h2{
+    text-align: center;
+    color: white;
+}
+.sect-3 .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+.container h3,
+.container h4{
+    color: white;
+}
+
+.container h4{
+    font-style: italic;
+}
+.container *{
+    margin-bottom: 15px;
+}
+
+.container .left{
+    width: 50%;
+}
+
+.container .left a{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background: #bbb;
+    padding: 5px 8px;
+    font-size: 16px;
+}
+/* ---------------------------------------------------------------------- */
 .sect-2 {
     display: flex;
     align-items: center;
